@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container-one {
+    background-color: #F7B787;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container-one ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center; /* Center the text in the navigation bar */
+}
+
+.container-one li {
+    display: inline-block; /* Display list items horizontally */
+}
+
+.container-one a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container-one a:hover {
+    background-color: #ddd;
+    color:orange;
+}
+
+.container-one .logo {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.container-two {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: auto;
+    padding: 20px;
+    background-color: #fff; /* Set a background color for the container */
+}
+
+.container-two form {
+    max-width: 100%;
+}
+
+.container-two h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-two label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.container-two input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.container-two button {
+    background-color: #F7B787;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Make the button full-width */
+}
+
+.container-two button:hover {
+    background-color: orange;
+}
